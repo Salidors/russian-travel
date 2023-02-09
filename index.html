@@ -6,18 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
     <title>Путешествия по России</title>
 </head>
 
+<body class="page">
+    <header class="header">
+        <img class="header__logo" src="./image/1280/__logo.svg" alt="Россия">
+        <img class="header__lang-link_ru" src="./image/320/__lang-RU.jpg" alt="Русский">
+        <img class="header__lang-link_en" src="./image/320/__lang-EN.jpg" alt="Английский">
+    </header>
 
-<header class="header">
-    <img class="header__logo" src="./image/320/logo/__logo_320.jpg" alt="Россия">
-    <img class="header__lang-link" src="./image/320/__lang-RU.jpg" alt="Русский">
-    <img class="header__lang-link" src="./image/320/__lang-EN.jpg" alt="Английский">
-</header>
-
-<body>
-    <div class="page">
+    <!--
+    <div>
         <section class="lead">
             <h1 class="lead__title_1280">Путешествия по России</h1>
             <p class="lead__subtitle_1280">Настоящая страна не в выпусках новостей, а здесь.</p>
@@ -65,7 +68,9 @@
                     class="place__image">
                 <ul class="place__website">
                     <li class="place__website_url-heading">URL</li>
-                    <li class="place__website_link">park-kosa.ru</li>
+                    <a href="http://park-kosa.ru">
+                        <li class="place__website_link">park-kosa.ru</li>
+                    </a>
                 </ul>
                 <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта
                     — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой.
@@ -81,7 +86,9 @@
                 <img src="./image/1280/places/m-r-760504-unsplash.jpg" alt="Кольский" class="place__image">
                 <ul class="place__website">
                     <li class="place__website_url-heading">URL</li>
-                    <li class="place__website_link">National Geographic</li>
+                    <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">
+                        <li class="place__website_link">National Geographic</li>
+                    </a>
                 </ul>
                 <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от
                     которой на юг —
@@ -99,8 +106,10 @@
                 <img src="./image/1280/places/nail-gilfanov-527808-unsplash.jpg" alt="Алтай" class="place__image">
                 <ul class="place__website">
                     <li class="place__website_url-heading">URL</li>
-                    <li class="place__website_link">YouTube
-                    </li>
+                    <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">
+                        <li class="place__website_link">YouTube
+                        </li>
+                    </a>
                 </ul>
                 <p class="place__paragraph">Алтай — одно из красивейших мест в России.
                     В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные
@@ -117,7 +126,9 @@
                     class="place__image">
                 <ul class="place__website">
                     <li class="place__website_url-heading">URL</li>
-                    <li class="place__website_link">https://vk.com/baikalmile</li>
+                    <a href="https://vk.com/baikalmile">
+                        <li class="place__website_link">https://vk.com/baikalmile</li>
+                    </a>
                 </ul>
                 <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
                     в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в
@@ -133,7 +144,9 @@
                 <img src="./image/1280/places/vladimir-fedotov-652306-unsplash.jpg" alt="Карелия" class="place__image">
                 <ul class="place__website">
                     <li class="place__website_url-heading">URL</li>
-                    <li class="place__website_link">http://vodlozero.ru/</li>
+                    <a href=" http://vodlozero.ru">
+                        <li class="place__website_link">http://vodlozero.ru/</li>
+                    </a>
                 </ul>
                 <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
                     лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
@@ -148,9 +161,14 @@
 
         <section class="cover">
             <div class="cover__overlay">
-                <h2 class="cover__title">До Байкала «на собаках»</h2>
-                <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
-                    электричках.</p>
+                <div class="cover__background">
+                    <a href="https://stampsy.com/na-elektrichkakh-do-baikala">
+                        <h2 class="cover__title">До Байкала «на собаках»</h2>
+                    </a>
+                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
+                        на
+                        электричках.</p>
+                </div>
             </div>
         </section>
     </div>
@@ -158,13 +176,14 @@
 
 <footer class="footer">
     <nav class="footer__links">
-        <a href="#" class="footer__link">Карты</a>
-        <a href="#" class="footer__link">Погода</a>
-        <a href="#" class="footer__link">Расписание</a>
-        <a href="#" class="footer__link">Календарь</a>
-        <a href="#" class="footer__link">Путешествия</a>
-        <p class="footer__copyright">© 2020. Впишите своё имя</p>
+        <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
+        <a href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
+        <a href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
+        <a href="https://calendar.yandex.ru" class="footer__link">Календарь</a>
+        <a href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
     </nav>
+    <p class="footer__copyright">© 2023 Абрамова Н.Г.</p>
 </footer>
+-->
 
 </html>
