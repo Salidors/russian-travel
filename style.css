@@ -1,0 +1,272 @@
+.page {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    min-width: 1280px;
+    background: #2A2C2F;
+}
+
+/*==========HEADER========*/
+.header {
+    position: absolute;
+    min-width: 1184px;
+    min-height: 52px;
+    left: 48px;
+    top: 28px;
+}
+
+.header__logo {
+    position: absolute;
+    min-width: 176px;
+    min-height: 52px;
+    left: 48px;
+    top: 28px;
+    background: #FFFFFF;
+}
+
+.header__lang-link_ru {
+    position: absolute;
+    min-width: 30px;
+    min-height: 28px;
+    left: 1155px;
+    top: 46px;
+}
+
+.header__lang-link_en {
+    position: absolute;
+    min-width: 29px;
+    min-height: 28px;
+    left: 1203px;
+    top: 46px;
+}
+
+/*============LEAD=============*/
+.lead {
+    position: absolute;
+    min-width: 984px;
+    min-height: 1005px;
+    left: 148px;
+    top: 136px;
+}
+
+.lead__title_1280 {
+    position: absolute;
+    min-width: 720px;
+    min-height: 200px;
+    left: 280px;
+    top: 136px;
+}
+
+.lead__subtitle_1280 {
+    position: absolute;
+    min-width: 640px;
+    min-height: 72px;
+    left: 320px;
+    top: 368px;
+}
+
+.lead__image_1280 {
+    position: absolute;
+    min-width: 984px;
+    min-height: 615px;
+    left: 148px;
+    top: 504px;
+}
+
+.lead__caption {
+    position: absolute;
+    min-width: 158px;
+    min-height: 14px;
+    left: 148px;
+    top: 1127px;
+}
+
+/*===========INTRO===========*/
+
+.intro {
+    position: absolute;
+    min-width: 690px;
+    min-height: 429px;
+    left: 148px;
+    top: 1233px;
+}
+
+.intro__title {
+    position: absolute;
+    min-width: 690px;
+    min-height: 58px;
+    left: 148px;
+    top: 1233px;
+}
+
+.intro__text {
+    position: absolute;
+    min-width: 690px;
+    min-height: 208px;
+    left: 148px;
+    top: 1331px;
+}
+
+.intro__list {
+    position: absolute;
+    min-width: 690px;
+    min-height: 90px;
+    left: 148px;
+    top: 1572px;
+}
+
+/*================PHOTO_GRID========*/
+
+.photo-grid {
+    position: absolute;
+    min-width: 1184px;
+    min-height: 671px;
+    left: 48px;
+    top: 1754px;
+}
+
+.photo-grid__item {
+    position: absolute;
+    min-width: 284px;
+    min-height: 213px;
+    left: 48px;
+    top: 1754px;
+}
+
+/*===========PLACES===========*/
+
+.places {
+    position: absolute;
+    min-width: 984px;
+    min-height: 3392px;
+    left: 148px;
+    top: 2517px;
+}
+
+.places__place {
+    position: absolute;
+    min-width: 984px;
+    min-height: 660px;
+    left: 148px;
+    top: 2517px;
+}
+
+.place__title {
+    position: absolute;
+    min-width: 460px;
+    min-height: 152px;
+    left: 148px;
+    top: 2517px;
+}
+
+.place__image {
+    position: absolute;
+    min-width: 460px;
+    min-height: 460px;
+    left: 148px;
+    top: 2717px;
+}
+
+.place__website {
+    position: absolute;
+    min-width: 456px;
+    min-height: 46px;
+    left: 648px;
+    top: 2623px;
+}
+
+.place__website_url-heading {
+    position: absolute;
+    min-width: 456px;
+    min-height: 12px;
+    left: 648px;
+    top: 2623px;
+}
+
+.place__website_link {
+    position: absolute;
+    min-width: 456px;
+    min-height: 22px;
+    left: 648px;
+    top: 2647px;
+}
+
+.place__paragraph {
+    position: absolute;
+    min-width: 484px;
+    min-height: 145px;
+    left: 648px;
+    top: 2717px;
+}
+
+/*==========COVER============*/
+
+.cover {
+    position: absolute;
+    min-width: 1184px;
+    min-height: 740px;
+    left: 48px;
+    top: 10px;
+}
+
+.cover__overlay {
+    position: absolute;
+    min-width: 1184px;
+    min-height: 740px;
+    left: 48px;
+    top: 10px;
+    background: #2A2C2F;
+    opacity: 0.3;
+}
+
+.cover__title {
+    position: absolute;
+    min-width: 560px;
+    min-height: 152px;
+    left: 360px;
+    top: 10px;
+}
+
+.cover__subtitle {
+    position: absolute;
+    min-width: 360px;
+    min-height: 66px;
+    left: 460px;
+    top: 30px;
+}
+
+.cover__background {
+    position: absolute;
+    min-width: 1184px;
+    min-height: 740px;
+    left: 48px;
+    top: 10px;
+}
+
+/*===========FOOTER=======*/
+
+.footer {
+    position: absolute;
+    min-width: 1184px;
+    min-height: 18px;
+    left: 48px;
+    top: 33px;
+}
+
+.footer__links {}
+
+.footer__link {
+    position: absolute;
+    min-width: 50px;
+    min-height: 18px;
+    left: 48px;
+    top: 6833px;
+}
+
+.footer__copyright {
+    position: absolute;
+    min-width: 186px;
+    min-height: 16px;
+    left: 1046px;
+    top: 6835px;
+
+}
