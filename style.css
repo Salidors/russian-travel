@@ -1,45 +1,47 @@
 .page {
+    display: block;
     font-family: 'Inter', sans-serif;
-    position: relative;
     min-width: 1280px;
     background: #2A2C2F;
+    box-sizing: border-box;
+}
+
+.link {
+    cursor: pointer;
+    text-decoration: none;
 }
 
 /*==========HEADER========*/
 .header {
-    position: absolute;
+    display: flex;
     min-width: 1184px;
     min-height: 52px;
-    left: 48px;
-    top: 28px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: end;
 }
 
 .header__logo {
-    position: absolute;
     min-width: 176px;
     min-height: 52px;
-    left: 48px;
-    top: 28px;
-    background: #FFFFFF;
+    background: #2A2C2F;
+    margin: 28px 0 0 48px;
 }
 
-.header__lang-link_ru {
-    position: absolute;
+.header__lang {
+    margin: 18px 0 6px;
+}
+
+.header__lang-link {
     min-width: 30px;
     min-height: 28px;
-    left: 1155px;
-    top: 46px;
+    margin: 18px;
+    background: #2A2C2F;
 }
 
-.header__lang-link_en {
-    position: absolute;
-    min-width: 29px;
-    min-height: 28px;
-    left: 1203px;
-    top: 46px;
-}
+.header__lang-link:hover {}
 
-/*============LEAD=============*/
+/*============LEAD=============
 .lead {
     position: absolute;
     min-width: 984px;
@@ -80,7 +82,7 @@
     top: 1127px;
 }
 
-/*===========INTRO===========*/
+/*===========INTRO===========
 
 .intro {
     position: absolute;
@@ -114,7 +116,7 @@
     top: 1572px;
 }
 
-/*================PHOTO_GRID========*/
+/*================PHOTO_GRID========*
 
 .photo-grid {
     position: absolute;
@@ -132,7 +134,7 @@
     top: 1754px;
 }
 
-/*===========PLACES===========*/
+/*===========PLACES===========*
 
 .places {
     position: absolute;
@@ -198,7 +200,7 @@
     top: 2717px;
 }
 
-/*==========COVER============*/
+/*==========COVER============*
 
 .cover {
     position: absolute;
@@ -242,7 +244,7 @@
     top: 10px;
 }
 
-/*===========FOOTER=======*/
+/*===========FOOTER=======*
 
 .footer {
     position: absolute;

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,9 +15,11 @@
 
 <body class="page">
     <header class="header">
-        <img class="header__logo" src="./image/1280/__logo.svg" alt="Россия">
-        <img class="header__lang-link_ru" src="./image/320/__lang-RU.jpg" alt="Русский">
-        <img class="header__lang-link_en" src="./image/320/__lang-EN.jpg" alt="Английский">
+        <img class="header__logo" src="./image/header-logo.svg" alt="Россия">
+        <div class="header__lang">
+            <img class="link header__lang-link" src="./image/__lang-link_ru.svg" alt="Русский">
+            <img class="link header__lang-link" src="./image/__lang-link_en.svg" alt="Английский">
+        </div>
     </header>
 
     <!--
@@ -172,7 +175,7 @@
             </div>
         </section>
     </div>
-</body>
+
 
 <footer class="footer">
     <nav class="footer__links">
@@ -184,6 +187,8 @@
     </nav>
     <p class="footer__copyright">© 2023 Абрамова Н.Г.</p>
 </footer>
+
 -->
+</body>
 
 </html>
