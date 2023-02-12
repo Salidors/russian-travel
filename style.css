@@ -41,79 +41,100 @@
 
 .header__lang-link:hover {}
 
-/*============LEAD=============
+/*============LEAD=============*/
 .lead {
-    position: absolute;
+    display: flex;
     min-width: 984px;
     min-height: 1005px;
-    left: 148px;
-    top: 136px;
+    justify-content: center;
 }
 
-.lead__title_1280 {
-    position: absolute;
+.lead__content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.lead__title {
+    display: block;
     min-width: 720px;
     min-height: 200px;
-    left: 280px;
-    top: 136px;
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    flex-wrap: wrap;
+    font-style: normal;
 }
 
-.lead__subtitle_1280 {
-    position: absolute;
+.lead__subtitle {
     min-width: 640px;
     min-height: 72px;
-    left: 320px;
-    top: 368px;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    font-style: normal;
 }
 
-.lead__image_1280 {
-    position: absolute;
+.lead__image {
     min-width: 984px;
     min-height: 615px;
-    left: 148px;
-    top: 504px;
+    width: 100%;
 }
 
 .lead__caption {
-    position: absolute;
     min-width: 158px;
     min-height: 14px;
-    left: 148px;
-    top: 1127px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 10px;
+    font-style: normal;
+    text-transform: uppercase;
 }
 
-/*===========INTRO===========
+/*===========INTRO===========*/
 
 .intro {
-    position: absolute;
     min-width: 690px;
     min-height: 429px;
-    left: 148px;
-    top: 1233px;
+    color: #fff;
+    margin: 114px 442px 92px 148px;
 }
 
 .intro__title {
-    position: absolute;
+    padding: 0;
+    margin: 0;
     min-width: 690px;
     min-height: 58px;
-    left: 148px;
-    top: 1233px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
 }
 
 .intro__text {
-    position: absolute;
-    min-width: 690px;
+    padding: 0;
+    margin: 40px 0 33px;
+    width: 690px;
     min-height: 208px;
-    left: 148px;
-    top: 1331px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
 }
 
 .intro__list {
-    position: absolute;
-    min-width: 690px;
-    min-height: 90px;
-    left: 148px;
-    top: 1572px;
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 /*================PHOTO_GRID========*
