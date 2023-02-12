@@ -137,22 +137,19 @@
     list-style-type: none;
 }
 
-/*================PHOTO_GRID========*
+/*================PHOTO_GRID========*/
 
 .photo-grid {
-    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
     min-width: 1184px;
     min-height: 671px;
-    left: 48px;
-    top: 1754px;
 }
 
 .photo-grid__item {
-    position: absolute;
     min-width: 284px;
     min-height: 213px;
-    left: 48px;
-    top: 1754px;
 }
 
 /*===========PLACES===========*
