@@ -260,48 +260,49 @@
     list-style-type: none;
 }
 
-/*==========COVER============*
+/*==========COVER============*/
 
 .cover {
-    position: absolute;
+    display: flex;
+    color: #fff;
     min-width: 1184px;
-    min-height: 740px;
-    left: 48px;
-    top: 10px;
+    min-height: 790px;
+    justify-content: space-between;
 }
 
 .cover__overlay {
-    position: absolute;
     min-width: 1184px;
-    min-height: 740px;
-    left: 48px;
-    top: 10px;
     background: #2A2C2F;
-    opacity: 0.3;
+    opacity: 0.8px;
 }
 
 .cover__title {
-    position: absolute;
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
     min-width: 560px;
-    min-height: 152px;
-    left: 360px;
-    top: 10px;
+    flex-wrap: wrap;
 }
 
 .cover__subtitle {
-    position: absolute;
-    min-width: 360px;
-    min-height: 66px;
-    left: 460px;
-    top: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .cover__background {
-    position: absolute;
-    min-width: 1184px;
+    width: 1184px;
     min-height: 740px;
-    left: 48px;
-    top: 10px;
+    background-image: url(./image/cover-trains.jpg);
 }
 
 /*===========FOOTER=======*
