@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(../Inter_Desktop/Inter-Regular.otf) format("woff");
+    src: url(../Inter_fonts/Inter-Regular.otf) format("woff");
 }
 
 @font-face {
@@ -11,7 +11,7 @@
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url(../Inter_Desktop/Inter-Bold.otf) format("woff");
+    src: url(../Inter_fonts/Inter-Bold.otf) format("woff");
 }
 
 @font-face {
@@ -19,5 +19,5 @@
     font-style: normal;
     font-weight: 900;
     font-display: swap;
-    src: url(../Inter_Desktop/Inter-Black.otf) format("woff");
+    src: url(../Inter_fonts/Inter-Black.otf) format("woff");
 }

@@ -1,0 +1,21 @@
+.header_pos {
+    margin: 28px 48px 56px;
+}
+
+@media screen and (max-width: 1279px) {
+    .header_pos {
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header_pos {
+        margin: 28px 24px 48px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header_pos {
+        margin: 16px 16px 48px;
+    }
+}
