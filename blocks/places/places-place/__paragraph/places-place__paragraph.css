@@ -1,4 +1,4 @@
-.place__paragraph_items {
+.places-place__paragraph {
     display: flex;
     margin: 0;
     padding: 0;
@@ -6,13 +6,15 @@
     grid-area: paragraph;
     max-width: 484px;
 }
+
 @media screen and (max-width: 1279px) {
-    .place__paragraph_items {
-            max-width: 456px;
-        }
+    .places-place__paragraph {
+        max-width: 456px;
+    }
 }
+
 @media screen and (max-width: 1023px) {
-    .place__paragraph_items {
-            max-width: 352px;
-        }
+    .places-place__paragraph {
+        max-width: 352px;
+    }
 }

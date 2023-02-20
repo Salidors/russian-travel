@@ -1,4 +1,4 @@
-.place__website {
+.places-place__website {
     margin: 0;
     padding: 0;
     grid-area: website;
@@ -8,8 +8,9 @@
     flex-direction: column;
     align-self: end;
 }
+
 @media screen and (max-width: 767px) {
-    .place__website {
-            margin: 0 16px;
-        }
+    .places-place__website {
+        margin: 0 16px;
+    }
 }
