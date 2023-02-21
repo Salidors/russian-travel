@@ -1,0 +1,8 @@
+.cover__content {
+    min-height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}

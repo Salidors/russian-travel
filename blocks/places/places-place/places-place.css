@@ -1,6 +1,6 @@
 .places-place {
     display: grid;
-    gap: 48px 40px;
+    grid-gap: 48px 40px;
     width: fit-content;
     grid-template-areas:
         "title website"
