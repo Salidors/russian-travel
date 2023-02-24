@@ -18,15 +18,14 @@
     }
 }
 
-@media screen and (max-width: 767px) {
-    .places-place__item:not(:last-child) {
-        margin-bottom: 25px;
-    }
-}
 
 @media screen and (max-width: 767px) {
     .places-place__item {
         max-width: 288px;
         margin: 0 16px;
+    }
+
+    .places-place__item:not(:last-child) {
+        margin-bottom: 25px;
     }
 }

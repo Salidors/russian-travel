@@ -14,13 +14,13 @@
 
 @media screen and (max-width: 1279px) {
     .places-place {
-        gap: 48px 32px;
+        grid-gap: 48px 32px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .places-place {
-        gap: 47px 28px;
+        grid-gap: 47px 28px;
     }
 }
 
@@ -37,14 +37,13 @@
             "website"
             "image"
             "paragraph";
-        gap: 32px;
+        grid-gap: 32px;
         min-width: 288px;
-    }
-}
+        width: 100%
 
-@media screen and (max-width: 767px) {
-    .places-place {
-        margin: 0 auto 50px;
-        width: 100%;
+    }
+
+    .places-place:not(:last-child) {
+        margin-bottom: 50px;
     }
 }
