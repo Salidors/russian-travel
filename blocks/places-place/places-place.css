@@ -39,8 +39,7 @@
             "paragraph";
         grid-gap: 32px;
         min-width: 288px;
-        width: 100%
-
+        width: 100%;
     }
 
     .places-place:not(:last-child) {
